@@ -1,0 +1,47 @@
+/* CSS Document */
+.inbox{
+    margin-bottom: 20px;
+	padding: 20px 60px;
+	}
+.huati{
+	color: #020202;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 微软雅黑;
+	padding-bottom: 5px;
+}
+.details{
+	color: #929292;
+	font-size: 15px;
+}
+.inbox2{
+	border-bottom: 1px solid #CCC;
+}
+.papersubmit{
+	width: 100px;
+	font-size: 16px;
+	display: inline-block;
+	padding-top: 6px;
+	padding-right: 12px;
+	padding-left: 12px;
+	padding-bottom: 6px;
+	margin-bottom: 0px;
+	font-weight: 400;
+	line-height: 1.42857;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	-moz-user-select: none;
+	background-image: none;
+	border: 1px solid #DB6D4C;
+	border-radius: 4px;
+	color: #FFF;
+	background-color: #DB6D4C;
+}
+#img1{
+	position: relative;
+}
+#join{
+	margin-left: 200px;
+}

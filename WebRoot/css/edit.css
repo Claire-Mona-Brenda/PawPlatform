@@ -1,0 +1,141 @@
+/* CSS Document */
+#paper_edit{
+	color: #56ADA0;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: left;
+	font-family: 微软雅黑;
+	padding-left: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+ #warning {
+    margin-left:200px;
+    font-weight: normal;
+    color: #ff7200;
+    font-size: 12px;
+}
+.messages{
+	background-color: #f4f9ff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-top: 1px solid #CCC;
+	height: 670px;
+	}
+.input1{
+	width: 100%;
+	height: 100px;
+	background: transparent;
+	border-style: none;
+	color: #000000;
+	font-family: 微软雅黑;
+	font-size: 18px;
+	font-weight: bold;
+}
+.input2{
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	border-style: none;
+	color: #000000;
+	font-family: 微软雅黑;
+	font-size: 15px;
+}
+.text1{
+	float: right;
+	width: 93%;
+}
+.biaoti{
+	color: #000000;
+	font-size: 18px;
+	float: left;
+
+	font-family: 微软雅黑;
+	margin-top: 0px;
+	font-weight: bold;
+}
+.biaoti2{
+	color: #000000;
+	font-size: 15px;
+	float: left;
+
+	font-family: 微软雅黑;
+	margin-top: 0px;
+}
+.box1{
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 60px;
+	border-top: 1px solid #CCC;
+}
+.box2{
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 10px;
+}
+.box3{
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 40px;
+}
+.box4{
+	margin-left: 38%;
+	margin-right: 38%;
+}
+.my_info_content_care_table_file{
+	background:  none repeat scroll 0% 0%;
+	width: 200px;
+	height: 34px;
+	line-height: 34px;
+	padding-left: 3px;
+	margin-right: 10px;
+	}
+#cardimg{
+	width: auto;
+	height: auto;
+	margin-left: 75px;
+}
+.papersubmit{
+	width: 100px;
+	font-size: 16px;
+	display: inline-block;
+	padding-top: 6px;
+	padding-right: 12px;
+	padding-left: 12px;
+	padding-bottom: 6px;
+	margin-bottom: 0px;
+	font-weight: 400;
+	line-height: 1.42857;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	-moz-user-select: none;
+	background-image: none;
+	border: 1px solid #D5D5D5;
+	border-radius: 4px;
+	color: #FFF;
+	background-color: #D5D5D5;
+}
+.papersubmit2{
+	width: 100px;
+	font-size: 16px;
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0px;
+	font-weight: 400;
+	line-height: 1.42857;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	-moz-user-select: none;
+	background-image: none;
+	border: 1px solid #DB6D4C;
+	border-radius: 4px;
+	color: #FFF;
+	background-color: #DB6D4C;
+	float: right;
+}

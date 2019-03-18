@@ -1,0 +1,131 @@
+/*topnews2*/
+.topnews2{
+	margin: 0px 0;
+}
+.topnews2 h2{
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 36px;
+	color: #333;
+	border-bottom: #db6d4c 4px solid;
+	margin-right: 0px;
+}
+.topnews2 h2 span{
+	float:right;
+	font-size:14px;
+	font-weight:normal;
+}
+.topnews2 h2 span a{
+	display: inline-block;
+	color: #db6d4c;
+	padding-top: 0;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 0;
+}
+.topnews2 h2 span a:hover { color: #F60; text-decoration: underline }
+#pan{
+	float: left;
+	margin-top: 11px;
+	margin-right: 0px;
+}
+/*分页样式*/
+#pages {
+	height: 36px;
+	margin-bottom: 40px;
+	margin-top: 20px;
+	margin-left: 32%;
+}
+#pages a{
+	font-size: 15px;	
+}
+#pages a#pageactive {
+    background: #db6d4c;
+    color: #fff;
+}
+#pages a {
+    background: #ffffff;
+    color: #a9a9a9;
+    display: block;
+    float: left;
+    font-family: Arial;
+    height: 36px;
+    line-height: 36px;
+    margin-right: 5px;
+    text-align: center;
+    transition: background-color 0.2s ease-out 0s;
+    width: 36px;
+}
+#pages a:hover {
+    background: #db6d4c;
+    color: #ffffff;
+}
+#pages span {
+    float: left;
+    line-height: 28px;
+    margin: 3px 20px 0 14px;
+}
+/*话题布局*/
+.col-md-3{
+	width: 25%;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+	position: relative;
+	margin-left: 40px;
+}
+.blog-list {
+    margin-top: 30px;
+}
+.blog-list .blog-list-item {
+    background: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+}
+.blog-list-item .item-Img {
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+.img-responsive{
+	height: auto;
+	max-width: 100%;
+	display: block;
+}
+.blog-list-item .item-des {
+    padding: 24px 20px 10px;
+}
+.blog-list-item .item-des .item-title {
+    color: #3a3a3a;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    height: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.blog-list-item .item-des .item-title:hover{
+	color: #db6d4c;
+}
+.blog-list-item .item-des .item-time {
+    height: 20px;
+    line-height: 20px;
+    margin-top: 8px;
+}
+.icon-time:before{content:"\f017";}
+.blog-list-item .item-des .summary {
+    color: #999999;
+    font-size: 13px;
+    height: 80px;
+    line-height: 24px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.clearfix{
+	margin-top: 50px;	
+}
+.join{
+	color: #838383;
+}

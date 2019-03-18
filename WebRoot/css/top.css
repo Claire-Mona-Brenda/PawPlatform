@@ -1,0 +1,47 @@
+/* CSS Document */
+/*共用CSS*/
+*{margin:0px;padding:0px;}
+body { font: 12px/1.5 'Microsoft Yahei', 'Simsun'; color: #666666; background: #fff }
+
+
+img { border: 0; display: block }
+ul { list-style: none; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }
+a { outline: none; }
+a:link, a:visited { text-decoration: none; color: #666 }
+a:hover { text-decoration: none; }
+.f_l{float:left;}
+.f_r{float:right;}
+.l_box{width:670px;}
+.l_box2{width:995px;}
+.r_box{width:300px;}
+
+/*头部样式*/
+header{
+	width:1000px;
+	margin:20px auto;
+	overflow:hidden;
+	clear:both;
+}
+#topnav {
+	width: 65%;
+	background: #56ada0;
+	height: 46px;
+	line-height: 46px;
+	border-radius: 46px;
+}
+#topnav a { display: inline-block; font-size: 18px; font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif; padding: 0 20px; }
+#topnav a:hover { background: #fff; color: #000; }
+#topnav a { color: #FFF }
+#topnav_current { background: #FFCC99; }/* 高亮选中颜色 */
+#topnav_current { color: #fff }
+#toptext{
+	margin-left: 40px;
+}
+.yonghu{
+	padding: 0px;
+}
+article{
+	width:1000px;
+	margin:20px auto;
+}
